@@ -8,16 +8,13 @@
 #ifndef TIMER_H
 #define	TIMER_H
 
-#ifdef	__cplusplus
-extern "C" {
-#endif
+void InitTimer23(void);
+void InitTimer1(void);
+void InitTimer4(void);
+void SetFreqTimer1(float freq);
+void SetFreqTimer4(float freq);
 
-
-
-
-#ifdef	__cplusplus
-}
-#endif
+extern unsigned long timestamp;
 
 #endif	/* TIMER_H */
 

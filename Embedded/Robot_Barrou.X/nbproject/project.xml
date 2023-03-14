@@ -14,6 +14,7 @@
             <make-dep-projects/>
             <sourceRootList>
                 <sourceRootElem>.</sourceRootElem>
+                <sourceRootElem>::{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>
