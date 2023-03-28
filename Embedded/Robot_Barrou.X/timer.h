@@ -1,12 +1,15 @@
 /* 
  * File:   timer.h
- * Author: TP_EO_6
+ * Author: GEII Robot
  *
- * Created on 16 novembre 2022, 12:01
+ * Created on 7 décembre 2022, 13:49
  */
 
 #ifndef TIMER_H
-#define	TIMER_H
+#define TIMER_H
+
+extern unsigned long timestamp;
+
 
 void InitTimer23(void);
 void InitTimer1(void);
@@ -14,7 +17,5 @@ void InitTimer4(void);
 void SetFreqTimer1(float freq);
 void SetFreqTimer4(float freq);
 
-extern unsigned long timestamp;
-
-#endif	/* TIMER_H */
+#endif 
 

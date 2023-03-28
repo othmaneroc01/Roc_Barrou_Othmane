@@ -1,13 +1,15 @@
 /* 
  * File:   main.h
- * Author: TP_EO_6
+ * Author: GEII Robot
  *
- * Created on 20 janvier 2023, 12:17
+ * Created on 27 janvier 2023, 13:54
  */
-
-
 #ifndef MAIN_H
 #define	MAIN_H
+
+// Configuration des èparamtres du chip
+#define FCY 40000000
+
 #define STATE_ATTENTE 0
 #define STATE_ATTENTE_EN_COURS 1
 #define STATE_AVANCE 2
@@ -28,18 +30,10 @@
 #define OBSTACLE_A_GAUCHE 1
 #define OBSTACLE_A_DROITE 2
 #define OBSTACLE_EN_FACE 3
-#define FCY 40000000
 
-void SetNextRobotStateInAutomaticMode(void);
+
 void OperatingSystemLoop(void);
-
-#ifdef	__cplusplus
-extern "C" {
-#endif
-
-#ifdef	__cplusplus
-}
-#endif
+void SetNextRobotStateInAutomaticMode(void);
 
 #endif	/* MAIN_H */
 

@@ -1,3 +1,5 @@
-build/default/production/ToolBox.o: ToolBox.c ToolBox.h
+build/default/production/ToolBox.o: ToolBox.c Toolbox.h main.h
 
-ToolBox.h:
+Toolbox.h:
+
+main.h:

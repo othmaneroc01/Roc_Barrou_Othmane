@@ -1,3 +1,5 @@
-build/default/production/robot.o: robot.c robot.h
+build/default/production/robot.o: robot.c Robot.h main.h
 
-robot.h:
+Robot.h:
+
+main.h:

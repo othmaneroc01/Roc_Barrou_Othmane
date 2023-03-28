@@ -1,7 +1,5 @@
-build/default/production/ADC.o: ADC.c adc.h ChipConfig.h IO.h
+build/default/production/ADC.o: ADC.c ADC.h main.h
 
-adc.h:
+ADC.h:
 
-ChipConfig.h:
-
-IO.h:
+main.h:
